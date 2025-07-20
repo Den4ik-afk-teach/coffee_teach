@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>coffee_teach – Кофе и оборудование</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fdfdfd; color: #333; }
+    header { background: #2d2d2d; color: white; padding: 20px; text-align: center; }
+    h1 { margin: 0; }
+    .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+    .section { margin-bottom: 40px; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { border: 1px solid #ccc; padding: 15px; border-radius: 8px; background: white; text-align: center; }
+    .card img { max-width: 100%; height: 180px; object-fit: cover; border-radius: 5px; }
+    .card h3 { margin: 10px 0 5px; }
+    .card p { margin: 0 0 10px; }
+    .btn { display: inline-block; padding: 10px 15px; background: #2d2d2d; color: white; text-decoration: none; border-radius: 4px; }
+    footer { text-align: center; padding: 20px; background: #f2f2f2; font-size: 14px; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>coffee_teach</h1>
+  <p>Свежая обжарка кофе и оборудование в Алмате</p>
+</header>
+<div class="container">
+  <section class="section">
+    <h2>☕ Кофе</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180?text=Эфиопия" alt="Эфиопия" />
+        <h3>Эфиопия Иргачефе (250г)</h3>
+        <p>Зерновой, светлая обжарка</p>
+        <p><strong>4500 ₸</strong></p>
+        <a class="btn" href="https://t.me/coffee_teach_bot">Заказать</a>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180?text=Колумбия" alt="Колумбия" />
+        <h3>Колумбия Супремо (дрип-пакеты, 10шт)</h3>
+        <p>Удобно в дороге и дома</p>
+        <p><strong>5000 ₸</strong></p>
+        <a class="btn" href="https://t.me/coffee_teach_bot">Заказать</a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <h2>🔧 Оборудование</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180?text=Гейзерная+кофеварка" alt="Гейзерная кофеварка" />
+        <h3>Гейзерная кофеварка Bialetti</h3>
+        <p>Аутентичный вкус эспрессо</p>
+        <p><strong>11000 ₸</strong></p>
+        <a class="btn" href="https://t.me/coffee_teach_bot">Заказать</a>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180?text=Hario+V60" alt="Hario V60" />
+        <h3>Воронка Hario V60 (керамика)</h3>
+        <p>Лучший пуровер-дизайн</p>
+        <p><strong>9000 ₸</strong></p>
+        <a class="btn" href="https://t.me/coffee_teach_bot">Заказать</a>
+      </div>
+    </div>
+  </section>
+</div>
+<footer>
+  © 2025 coffee_teach | Алмата | Оплата: Kaspi, СБП
+</footer>
+</body>
+</html>
